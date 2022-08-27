@@ -4,11 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <br>
-            <br>
-            <h1 class="text-center">Welcome to the vulnerabilities DB!</h1>
-            <br>
-            <br>
+            <h1 class="text-center my-5">Welcome to the vulnerabilities DB!</h1>
             <vulnerabilities></vulnerabilities>
         </div>
     </div>

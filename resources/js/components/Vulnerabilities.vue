@@ -5,13 +5,14 @@
                 <vulnerability v-for="v in vulnerabilities" :key="v.id" :data="v"></vulnerability>
             </ol>
             <div v-else>
-                <h1 class="fw-bold text-muted text-center">Looks empty {{'(>_<)'}}</h1>
+                <h1 class="fw-light text-muted text-center">Looks empty {{'(>_<)'}}</h1>
             </div>
         </div>
     </div>
 </template>
 
 <script setup>
+
 import axios from 'axios';
 import { ref, onMounted } from 'vue'
 import Vulnerability from './Vulnerability.vue';
